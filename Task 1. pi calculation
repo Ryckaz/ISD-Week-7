@@ -1,0 +1,11 @@
+import math
+
+n = 0
+pi = 0
+
+while (n < 1000000):
+    pi = pi + ((math.pow(-1, n) * 4) / (2 * n + 1))
+    n = n + 1
+   
+    
+print("Pi is: ", pi)
