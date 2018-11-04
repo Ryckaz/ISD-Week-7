@@ -1,0 +1,16 @@
+#lst1 = [] # Create an empty list
+#print("Enter 10 Numbers: ")
+#for i in range(10):
+   #lst1.append(eval(input()))
+
+#print(lst1)
+
+shoppingList = []
+print ("Enter your 10 shopping list: ")
+for i in range (10):
+    shoppingList.append(input())
+
+print(shoppingList)
+
+               
+      
