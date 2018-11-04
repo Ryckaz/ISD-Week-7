@@ -1,0 +1,7 @@
+list = [0,1,2,3,4,5,6,7,8,9,10]
+square = []  #an empty list for our squares numbers
+
+for i in list:  
+    square.append(i*i) #each number is multiplicated by itself
+print("Our square numbers list:")
+print (square)
