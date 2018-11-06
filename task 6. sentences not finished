@@ -1,9 +1,10 @@
 firstSen = input("Please enter first sentence: ")
 secondSen = input("Please enter second sentence: ")
+
 joinedSen = firstSen + secondSen
+
 print("============================================")
 print("Our sentences joined together: ")
-
 print(joinedSen)
 #adds two sentences together
 
@@ -11,31 +12,36 @@ print(joinedSen)
 print("============================================")
 print("Our split sentence in the list: ")
 splitJoinedSen = joinedSen.split()
-#splitSecondSen = secondSen.split()
 print (splitJoinedSen)
-#print (splitSecondSen)
-#Splits our sentences in a list
+#Splits our sentences into a list
 
 splitJoinedSen.sort()
-#splitSecondSen.sort()
 print("============================================")
 print("Alphabetical order: ")
 print(splitJoinedSen)
-#print(splitSecondSen)
 #Short our list in alphabetical order
 
 print("============================================")
 print("Lenght of our list: ", (len(splitJoinedSen)))
-#print("Second list length: ", (len(splitSecondSen)))
-#Count the length of our sentences list
+#lenght of our list
+
 
 print("============================================")
 
+senCountDict = {}
 
+for item in splitJoinedSen:
+    if item in senCountDict:
+        senCountDict[item] = senCountDict[item] + 1
+    else:
+        senCountDict[item] = 1
 
+print(senCountDict)
+    
+for bla in splitJoinedSen:
+    print ("Haha: ", bla)
 
-
-
-
-
-
+index = 0
+while (index < len(splitJoinedSen)):
+    print("Huhu: ", splitJoinedSen[index])
+    index = index + 1
