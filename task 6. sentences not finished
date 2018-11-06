@@ -1,0 +1,41 @@
+firstSen = input("Please enter first sentence: ")
+secondSen = input("Please enter second sentence: ")
+joinedSen = firstSen + secondSen
+print("============================================")
+print("Our sentences joined together: ")
+
+print(joinedSen)
+#adds two sentences together
+
+
+print("============================================")
+print("Our split sentence in the list: ")
+splitJoinedSen = joinedSen.split()
+#splitSecondSen = secondSen.split()
+print (splitJoinedSen)
+#print (splitSecondSen)
+#Splits our sentences in a list
+
+splitJoinedSen.sort()
+#splitSecondSen.sort()
+print("============================================")
+print("Alphabetical order: ")
+print(splitJoinedSen)
+#print(splitSecondSen)
+#Short our list in alphabetical order
+
+print("============================================")
+print("Lenght of our list: ", (len(splitJoinedSen)))
+#print("Second list length: ", (len(splitSecondSen)))
+#Count the length of our sentences list
+
+print("============================================")
+
+
+
+
+
+
+
+
+
